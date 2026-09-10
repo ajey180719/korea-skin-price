@@ -1,10 +1,34 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>首页 | KOREA SKIN PRICE</title><link rel="stylesheet" href="assets/style.css"></head><body>
-<header><div class="wrap nav"><a class="logo" href="index.html">KOREA <span>SKIN</span> PRICE</a><nav class="menu"><a href="prices.html">价格查询</a><a href="treatments.html">项目</a><a href="clinics.html">诊所</a><a href="how.html">使用方法</a><a href="admin.html">后台</a></nav></div></header><main><section class="hero"><div class="wrap"><div class="eyebrow">KOREA MEDICAL BEAUTY PRICE GUIDE</div><h1>在韩国做医美，<br>先知道价格。</h1><p class="sub">搜索韩国皮肤科与医美项目，比较不同诊所的公开价格。<br>在预约之前，先把价格看明白。</p><div class="search"><input id="q" placeholder="例如：水光针、超皮秒、热玛吉、肉毒…"><button onclick="location.href='prices.html?q='+encodeURIComponent(document.getElementById('q').value)">搜索价格</button></div><div class="chips"><a class="chip" href="prices.html?q=水光针">水光针</a><a class="chip" href="prices.html?q=肉毒">肉毒</a><a class="chip" href="prices.html?q=热玛吉">热玛吉</a><a class="chip" href="prices.html?q=超皮秒">超皮秒</a></div></div></section>
-<section class="section"><div class="wrap"><div class="head"><div><div class="kicker">POPULAR TREATMENTS</div><h2>热门项目价格</h2></div><a href="treatments.html">查看全部 →</a></div><div class="grid4">
-<a class="card" href="treatment.html?id=water"><span class="tag">热门</span><h3>水光针</h3><p class="muted">保湿 · 提亮 · 肤质改善</p><div class="price">₩59,000 起</div></a>
-<a class="card" href="treatment.html?id=botox"><span class="tag">热门</span><h3>肉毒素</h3><p class="muted">咬肌 · 眉间 · 额头 · 肩颈</p><div class="price">₩19,000 起</div></a>
-<a class="card" href="treatment.html?id=pico"><span class="tag">激光</span><h3>超皮秒</h3><p class="muted">色斑 · 痘印 · 肤色不均</p><div class="price">₩39,000 起</div></a>
-<a class="card" href="treatment.html?id=thermage"><span class="tag">抗衰</span><h3>Thermage 热玛吉</h3><p class="muted">紧致 · 抗衰 · 轮廓管理</p><div class="price">₩1,200,000 起</div></a>
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>KOREA SKIN PRICE | 韩国医美价格比较</title><link rel="stylesheet" href="assets/style.css"></head>
+<body>
+<div class="topbar"><div class="container"><span>韩国医美价格数据库 · Clinic #001</span><span>价格仅供参考，治疗前请向诊所确认</span></div></div>
+<nav class="nav"><div class="container navin"><a class="logo" href="index.html">KOREA SKIN PRICE<small>SEOUL AESTHETIC PRICE DATABASE</small></a><div class="navlinks"><a href="prices.html">价格比较</a><a href="clinic-seye.html">诊所</a><a href="how.html">如何使用</a></div></div></nav>
+<section class="hero"><div class="container">
+<div class="eyebrow">Clinic #001 · Gangnam / Sinnonhyeon</div>
+<h1>세예클리닉<br>韩国医美价格</h1>
+<p>先从一家诊所开始，把韩国医美项目按照「项目 / 规格 / 活动类型 / VAT / 更新时间」标准化。以后每增加一家诊所，就可以直接横向比较。</p>
+<div class="searchbox"><input id="q" placeholder="搜索：Ulthera / 리쥬란 / 쥬베룩 / 보톡스…"><button onclick="goSearch()">搜索价格</button></div>
+</div></section>
+<section class="section"><div class="container">
+<h2>세예클리닉 · 热门价格</h2><p class="lead">当前页面以 세예클리닉 为第一个标准化诊所样本。</p>
+<div class="grid">
+<div class="card"><span class="tag">첫방문</span><h3>LDM 6분 + 진정팩</h3><p>LDM 6 min + calming pack</p><div class="price">₩39,000 <span class="old">₩66,000</span></div><div class="sub">VAT 별도 · 价格来源：诊所官网</div></div><div class="card"><span class="tag">첫방문</span><h3>아쿠아필(1/2제) + 진정팩 1회</h3><p>Aqua Peel + calming pack</p><div class="price">₩39,000 <span class="old">₩49,000</span></div><div class="sub">VAT 별도 · 价格来源：诊所官网</div></div><div class="card"><span class="tag">첫방문</span><h3>라라필 + 진정팩 1회</h3><p>Lhala Peel + calming pack</p><div class="price">₩59,000 <span class="old">₩99,000</span></div><div class="sub">VAT 별도 · 价格来源：诊所官网</div></div><div class="card"><span class="tag">9월/추석</span><h3>슈링크 유니버스 울트라 300샷</h3><p>Shurink Universe Ultra 300 shots</p><div class="price">₩89,000 <span class="old">₩147,000</span></div><div class="sub">VAT 별도 · 价格来源：诊所官网</div></div><div class="card"><span class="tag">9월/추석</span><h3>인모드 FX 풀페이스 10분</h3><p>InMode FX full face 10 min</p><div class="price">₩79,000 <span class="old">₩119,000</span></div><div class="sub">VAT 별도 · 价格来源：诊所官网</div></div><div class="card"><span class="tag">9월/추석</span><h3>올리지오 300샷 + 튠라이너 8분</h3><p>Oligio 300 shots + Tune Liner</p><div class="price">₩350,000 <span class="old">₩548,000</span></div><div class="sub">VAT 별도 · 价格来源：诊所官网</div></div><div class="card"><span class="tag">9월</span><h3>울쎄라피 프라임 300샷 + 옵션 택1</h3><p>Ultherapy Prime 300 shots + option</p><div class="price">₩990,000 <span class="old">₩1,459,000</span></div><div class="sub">VAT 별도 · 价格来源：诊所官网</div></div><div class="card"><span class="tag">9월</span><h3>써마지 FLX 600샷 + 옵션 택1</h3><p>Thermage FLX 600 shots + option</p><div class="price">₩1,890,000 <span class="old">₩3,150,000</span></div><div class="sub">VAT 별도 · 价格来源：诊所官网</div></div><div class="card"><span class="tag">추석</span><h3>세르프 300샷</h3><p>Syrf 300 shots</p><div class="price">₩790,000 <span class="old">₩1,500,000</span></div><div class="sub">VAT 별도 · 价格来源：诊所官网</div></div>
 </div></div></section>
-<section class="band"><div class="wrap bandin"><div><h2>不要只看一家诊所的价格。</h2><p>比较地区、剂量、活动和价格更新时间。</p></div><a class="whitebtn" href="prices.html">开始比较 →</a></div></section>
-<section class="section"><div class="wrap"><div class="head"><div><div class="kicker">POPULAR AREAS</div><h2>热门地区</h2></div></div><div class="grid4"><a class="card" href="prices.html?area=江南"><h3>江南 Gangnam</h3><p class="muted">高端诊所密集 · 项目丰富</p></a><a class="card" href="prices.html?area=明洞"><h3>明洞 Myeongdong</h3><p class="muted">外国游客方便 · 中文服务较多</p></a><a class="card" href="prices.html?area=狎鸥亭"><h3>狎鸥亭 Apgujeong</h3><p class="muted">美容整形诊所集中</p></a><a class="card" href="prices.html?area=弘大"><h3>弘大 Hongdae</h3><p class="muted">年轻客群 · 性价比选择</p></a></div></div></section></main><footer><div class="wrap">© 2026 KOREA SKIN PRICE · 价格信息仅供参考，实际费用以诊所确认结果为准。</div></footer><script></script></body></html>
+<section class="section" style="background:#f1ece7"><div class="container info">
+<div class="clinicbox"><h2>세예클리닉</h2><p class="lead">세예의원 · Seye Clinic</p>
+<dl><dt>地区</dt><dd>首尔 · 瑞草区 / 江南 · 新论岘</dd>
+<dt>地址</dt><dd>서울 서초구 서초대로77길 55, 10층</dd>
+<dt>交通</dt><dd>新论岘站 7号出口、江南站 10号出口，步行约5分钟</dd>
+<dt>营业时间</dt><dd>平日/夜诊 10:30–21:00；周末 10:30–19:00</dd>
+<dt>停车</dt><dd>楼内停车；治疗时提供1小时免费停车，车位有限</dd>
+<dt>电话</dt><dd>0507-1345-5928</dd>
+</dl></div>
+<div class="clinicbox"><span class="tag">PRICE VERIFIED</span><h3>价格数据说明</h3>
+<p>本页价格来自 세예클리닉 官方网站及你提供的价格表截图。官网价格多数标注“VAT 별도”，因此本站不会把未含税价格伪装成最终支付价格。</p>
+<p>活动价格可能有首次访问、日期、次数、部位、耗材或预约条件。最终支付金额请以诊所咨询结果为准。</p>
+<a class="btn" href="clinic-seye.html">查看完整诊所页 →</a></div>
+</div></section>
+<footer class="footer"><div class="container">KOREA SKIN PRICE · Clinic #001 Seye Clinic<br>本网站为价格信息整理与比较原型，不构成医疗建议或医疗服务推荐。</div></footer>
+<script>function goSearch(){const q=document.getElementById('q').value.trim();location.href='prices.html'+(q?'?q='+encodeURIComponent(q):'')}</script>
+</body></html>

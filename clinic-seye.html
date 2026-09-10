@@ -1,0 +1,23 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>세예클리닉 | KOREA SKIN PRICE</title><link rel="stylesheet" href="assets/style.css"></head><body>
+<div class="topbar"><div class="container"><span>Clinic #001</span><span>세예클리닉</span></div></div>
+<nav class="nav"><div class="container navin"><a class="logo" href="index.html">KOREA SKIN PRICE<small>SEOUL AESTHETIC PRICE DATABASE</small></a><div class="navlinks"><a href="prices.html">价格比较</a><a href="clinic-seye.html">세예诊所</a><a href="how.html">如何使用</a></div></div></nav>
+<section class="hero"><div class="container"><div class="eyebrow">SEYE CLINIC · SEOUL</div><h1>세예클리닉</h1><p>首尔江南 / 新论岘地区的皮肤科·医美诊所。本站将其价格拆分为可搜索、可比较的数据。</p></div></section>
+<section class="section"><div class="container info">
+<div class="clinicbox"><span class="tag">CLINIC INFORMATION</span><h2>诊所信息</h2><dl>
+<dt>韩文名</dt><dd>세예의원</dd><dt>英文名</dt><dd>Seye Clinic</dd><dt>地区</dt><dd>首尔 瑞草区 / 江南·新论岘</dd>
+<dt>地址</dt><dd>서울 서초구 서초대로77길 55, 10층</dd><dt>交通</dt><dd>신논현역 7번 출구、강남역 10번 출구 徒步约5分钟</dd>
+<dt>营业时间</dt><dd>平日/夜诊 10:30–21:00；周末 10:30–19:00（结束前1小时停止接诊）</dd>
+<dt>停车</dt><dd>楼内可停车；治疗时1小时免费，车位有限</dd><dt>电话</dt><dd>0507-1345-5928</dd>
+</dl></div>
+<div class="clinicbox"><span class="tag">DATABASE RULE</span><h2>我们怎么记录</h2><p>每个价格至少记录：项目、规格、活动类型、原价、活动价、VAT、来源、确认日期。</p>
+<div class="notice"><b>重要：</b>本诊所官网大量价格为 VAT 별도（未含VAT）。本站会保留这一状态，避免用户把活动价理解为最终结算价。</div></div>
+</div></section>
+<section class="section"><div class="container"><h2>代表性价格</h2><p class="lead">以下为当前数据库中的代表项目，完整列表可在价格页搜索。</p><div class="tablewrap"><table><thead><tr><th>分类</th><th>项目</th><th>规格/英文</th><th>活动价</th><th>原价</th><th>活动</th></tr></thead><tbody id="tbody"></tbody></table></div></div></section>
+<section class="section"><div class="container"><h2>原始价格表</h2><p class="lead">你提供的 세예价格表截图作为第一家诊所的数据核对资料。</p><div class="gallery">
+<img src="assets/seye-price-01.png" alt="세예 가격표 1"><img src="assets/seye-price-02.jpg" alt="세예 가격표 2">
+</div></div></section>
+<footer class="footer"><div class="container">KOREA SKIN PRICE · Clinic #001</div></footer>
+<script src="assets/data.js"></script><script>
+const tbody=document.getElementById('tbody'); tbody.innerHTML=prices.slice(0,24).map(p=>`<tr><td>${{p.cat}}</td><td><div class="kr">${{p.kr}}</div><div class="sub">${{p.en}}</div></td><td>${{p.en}}</td><td><span class="sale">₩${{p.sale}}</span><div class="vat">VAT 별도</div></td><td>₩${{p.old}}</td><td>${{p.tag}}</td></tr>`).join('');
+</script></body></html>
